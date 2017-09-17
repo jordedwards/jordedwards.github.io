@@ -1,1 +1,438 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="manifest" href="manifest.json"><meta name="mobile-web-app-capable" content="yes"><title>React.js Boilerplate</title></head><body><noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript><div id="app"></div><script type="text/javascript" src="/main.ea9cbfa61fa3a3c9f9f0.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jordan Edwards</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header" id="header">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="logo-menu">
+              <div class="col-sm-11">
+                <div class="navbar navbar-custom">
+                  <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-target="#navbar-menu-collapse" data-toggle="collapse" type="button">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+
+                  <div class="collapse navbar-collapse no-padding" id="navbar-menu-collapse">
+                    <div id="sidebar">
+                      <div id="checkdiv"></div>
+                      <nav class="">
+                        <ul class="menu nav navbar-nav">
+                          <li class="active">
+                            <a href="#header">HOME</a>
+                          </li>
+                          <li>
+                            <a href="#section2">ABOUT</a>
+                          </li>
+                          <li>
+                            <a href="#section3">PROJECTS</a>
+                          </li>
+                          <li>
+                            <a href="#section4">CONTACT</a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <img class="section1-picture" src="img/profile.jpg"/>
+        <div class="section1-content">
+          <h1>Jordan Edwards</h1>
+          <h4>
+            University of Waterloo
+            3B Electrical Engineering
+          </h4>
+          <button class="more-btn" data-toggle="modal" data-target="#modal-resume">
+            VIEW RESUME
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-modal">
+      <div id="modal-resume" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
+            </div>
+            <div class="container">
+              <div id="resume-body" class="modal-body">
+                <img src="img/resume.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="section2">
+      <div class="container">
+        <div class="line-title">
+          <h3 class="title">ABOUT</h3>
+        </div>
+        <div class="row about_me">
+          <div class="col-md-4 col-sm-6">
+            <!--<img class="img-responsive img-100" src="img/about.png" alt="about">-->
+            <div class="about-noimg"></div>
+          </div>
+          <div class="col-md-8">
+            <h3>
+              <b>About Me</b>
+            </h3>
+            <p>
+              I'm 21 years old and currently in my fourth year of studying Electrical Engineering
+              at the University of Waterloo. I have a strong passion for problem solving and learning
+              new things, particularly those related to fitness or technology.
+              <br><br>
+              In my free time I love to stay active through working out as well as outdoor sports such
+              as mountain biking. I also read a lot and enjoy other "lazy" activities like watching movies
+              and playing board games. Recently I've been trying to expand my interests by signing up for
+              various new activies such as salsa dancing.
+            </p>
+          </div>
+        </div>
+
+        <div class="line-title">
+          <h3 class="title">SKILLS</h3>
+        </div>
+        <div class="row" id="skills">
+          <div class="col-sm-4 full-stack">
+            <h4>FULL-STACK DEVELOPMENT</h4>
+            <ul>
+              <li>Well-versed in ...
+            </ul>
+          </div>
+          <div class="col-sm-4 web">
+            <h4>WEB DEVELOPMENT</h4>
+            <p>
+              placeholder
+            </p>
+          </div>
+          <div class="col-sm-4 network">
+            <h4>NETWORK ENGINEERING</h4>
+            <p>
+              placeholder
+            </p>
+          </div>
+        </div>
+        <div class="exp">
+          <div class="line-title">
+            <h3 class="title">EXPERIENCE</h3>
+          </div>
+
+          <div class="row experience-row">
+            <div class="col-md-6 col-sm-12">
+              <div class="row experience">
+                <div class="col-sm-1 col-xs-1">
+                  <div class="exp-box1"></div>
+                </div>
+                <div class="mobile-style">
+                  <div class="col-sm-5 col-xs-5 exp-web1">
+                    <b>
+                      SOFTWARE DEVELOPER<br>
+                    </b>
+                    MAY-AUGUST 2017
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                    <p>
+                      <b>TribalScale</b><br>
+                      <a href="http://www.tribalscale.com/">tribalscale.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="row experience">
+                <div class="col-sm-1 col-xs-1">
+                  <div class="exp-box2"></div>
+                </div>
+                <div class="mobile-style">
+                  <div class="col-sm-5 col-xs-5 exp-web2">
+                    <b>
+                      WEB DEVELOPER<br>
+                    </b>
+                    SEPTEMBER-DECEMBER 2016
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                    <p>
+                      <b>Innovasium</b><br>
+                      <a href="http://www.innovasium.com/">innovasium.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row experience-row">
+            <div class="col-md-6 col-sm-12">
+              <div class="row experience">
+                <div class="col-sm-1 col-xs-1">
+                  <div class="exp-box3"></div>
+                </div>
+                <div class="mobile-style">
+                  <div class="col-sm-5 col-xs-5 exp-web3">
+                    <b>
+                      SYSTEMS ENGINEERING<br>
+                    </b>
+                    MAY-AUGUST 2015,<br>
+                    JANUARY-APRIL 2016
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                    <p>
+                      <b>Cisco Systems</b><br>
+                      <a href="http://www.cisco.com/">cisco.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="row experience">
+                <div class="col-sm-1 col-xs-1">
+                  <div class="exp-box3"></div>
+                </div>
+                <div class="mobile-style">
+                  <div class="col-sm-5 col-xs-5 exp-web3">
+                    <b>
+                      IMPLEMENTATION SPECIALIST<br>
+                    </b>
+                    JULY-AUGUST 2015
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                    <p>
+                      <b>TO2015</b><br>
+                      <a href="http://www.toronto2015.org/">toronto2015.org</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3">
+      <div class="container">
+        <div class="line-title">
+          <h3 class="title">PROJECTS</h3>
+          <p class="top-content">
+            Click below to explore some of the various projects I've worked on
+          </p>
+        </div>
+        <ul class="row filters">
+          <li class="btn col-md-15 filter active" data-filter=".all">ALL</li>
+          <li class="btn col-md-15 filter" data-filter=".web">WEB</li>
+          <li class="btn col-md-15 filter" data-filter=".mobile">MOBILE</li>
+        </ul>
+        <div class="projects-modal">
+          <div id="modal-cruise" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
+                </div>
+                <div class="container">
+                  <div class="modal-body">
+                    <img src="img/cruise-app.jpg"/>
+                    <h3>Cruise Line Application</h3>
+                    <p>
+                      Supporting one of the largest cruise line's world-wide, performance and reliability were two critical factors
+                      of this application's success. I worked with a small team on the middleware (written in .NET) of this project to support
+                      all of the request traffic between the iOS and Android mobile applications to the back-end services. By optimizing
+                      caching at both the controller and web-service levels, and re-writing numerous requests to run asynchronously,
+                      response time of key features in this application such as the homescreen were improved by as much as 227%. This
+                      project was a great opportunity to learn how to handle high-volume request traffic and provide a world-class
+                      mobile experience for thousands of concurrent users.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal-questionnaire" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
+                </div>
+                <div class="container">
+                  <div class="modal-body">
+                    <img src="img/questionnaire-app.png"/>
+                    <h3>Insurance Questionnaire</h3>
+                    <p>
+                      placeholder
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal-pharmaceutical" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    <img src="img/close-modal.png" alt="close">
+                  </button>
+                </div>
+                <div class="container">
+                  <div class="modal-body">
+                    <img src="img/pharmaceutical-app.png"/>
+                    <h3>Pharmaceutical Shipment Management</h3>
+                    <p>
+                      This application was built for our client to effectively create, manage, and track large orders
+                      of pharmaceutical supplies across Canada. ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-container">
+          <div class="row swiper-wrapper" id="projectslist" >
+            <div class="swiper-slide col-sm-4">
+              <div class="projects all mobile">
+                  <img class="img-responsive img-100" src="img/cruise-preview.jpg" />
+                  <div class="middle">
+                    <div class="text">
+                      <h4>Cruise Line Application</h4>
+                      <p>Android, iOS, .NET</p>
+                      <button data-toggle="modal" data-target="#modal-cruise">+</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide col-sm-4">
+              <div class="projects all web">
+                  <img class="img-responsive img-100" src="img/questionnaire-preview.jpg" />
+                  <div class="middle">
+                    <div class="text">
+                      <h4>Insurance Questionnaire</h4>
+                      <p>AEM, JavaScript</p>
+                      <button data-toggle="modal" data-target="#modal-questionnaire">+</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide col-sm-4">
+              <div class="projects all web">
+                  <img class="img-responsive img-100" src="img/pharmaceutical-preview.jpg" />
+                  <div class="middle">
+                    <div class="text">
+                      <h4>Pharmaceutical Shipment Management</h4>
+                      <p>React.js</p>
+                      <button data-toggle="modal" data-target="#modal-pharmaceutical">+</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-arrows">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="section4">
+      <div class="container">
+        <div class="line-title">
+          <h3 class="title">CONTACT</h3>
+          <p class="top-content">
+              Please don't hesitate to contact me using one of the methods below!
+          </p>
+        </div>
+        <div class="row contact-boxes">
+          <div class="col-sm-4 col-xs-12">
+            <div class="contact-info">
+              <a href="mailto:jordan.edwards@edu.uwaterloo.ca?subject=I%20Would%20Like%20To%20Hire%20You!">
+                <div>
+                  <h5>E-MAIL</h5>
+                    <p>jordan.edwards@edu.uwaterloo.ca</p>
+                </div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <div class="contact-info">
+              <div>
+                <h5>PHONE</h5>
+                <p>416 770 2016</p>
+              </div>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <div class="contact-info">
+              <div data-toggle="modal" data-target="#modal-resume">
+                <h5>RESUME</h5>
+                <p>Click to view</p>
+              </div>
+              <i class="fa fa-file-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social-message">
+          <p>Alternatively, you can add me on social media</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/jedwards1996" class="col-md-1 col-sm-2 col-xs-3">
+            <div class="si">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/jordedwards/" class="col-md-1 col-sm-2 col-xs-3">
+            <div class="si">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
