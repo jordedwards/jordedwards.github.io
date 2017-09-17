@@ -910,7 +910,7 @@ footer {
 }
 @media(max-width:992px) {
 	.about_me img {
-		margin-bottom: 5px;
+		margin-bottom: 25px;
 	}
 
 	.to_top {
@@ -956,11 +956,6 @@ footer {
 		margin: 0 0 30px 10px;
 	}
 }
-@media(min-width: 714px) {
-	.blisting-item {
-		width: 100%;
-	}
-}
 @media(max-width: 525px) {
 	.mobile-style div {
 		width: 100%;
@@ -972,6 +967,14 @@ footer {
 		transform: translateY(-50%);
 		text-align: center;
 		width: 100%;
+	}
+
+	.section1-content {
+		left: 10%;
+	}
+
+	.section1-picture {
+		display: none;
 	}
 
 	.section1-content h1 {
