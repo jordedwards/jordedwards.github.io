@@ -328,6 +328,10 @@ header {
 	background-color: #fff;
 }
 
+#resume-body img {
+	border: none;
+}
+
 /* About */
 #section2 {
 	background: #282631;
