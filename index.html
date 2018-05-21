@@ -70,28 +70,11 @@
             4A Electrical Engineering
           </h4>
           <button class="more-btn">
-            <a href="https://www.dropbox.com/s/ulx30pcgux7xe98/jordanedwards_resume.pdf?dl=0">VIEW RESUME</a>
+            <a href="https://www.dropbox.com/s/p6k6qfukgbdm12h/jordanedwards_resume.pdf?dl=0">VIEW RESUME</a>
           </button>
         </div>
       </div>
     </div>
-
-    <!-- <div class="projects-modal">
-      <div id="modal-resume" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
-            </div>
-            <div class="container">
-              <div id="resume-body" class="modal-body">
-                <img src="img/resume.png"/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <section id="section2">
       <div class="container">
@@ -127,13 +110,15 @@
           <div class="col-sm-4 full-stack">
             <h4>FULL-STACK DEVELOPMENT</h4>
             <ul>
+              <li>Developed a highly configurable, enterprise-focused application to monitor and manage the cell therapies of patients</li>
+              <li>Implemented custom variable types and widgets in a proprietary Java-based platform</li>
+              <li>Maintained a stable development branch to ensure readiness of bi-weekly deploys to a client-facing sandbox environment</li>
               <li>Experienced with .NET, Ruby on Rails, Node.js, PostgreSQL, Redis</li>
               <li>Optimized the Redis cache configuration of middleware in .NET supporting a large cruise line
                 mobile application, reducing request latency by up to 227%</li>
               <li>Implemented a form management system, enabling clients to easily construct HTML forms through
                 a user-friendly web portal</li>
-              <li>Fixed various bugs inside of back-end services written using Ruby on Rails, such as an
-                internal tool used to manage project allocations for employees across the company</li>
+              <li>Fixed various bugs inside of back-end services written using Ruby on Rails</li>
             </ul>
           </div>
           <div class="col-sm-4 web">
@@ -162,6 +147,27 @@
           </div>
 
           <div class="row experience-row">
+            <div class="col-md-6 col-sm-12">
+              <div class="row experience">
+                <div class="col-sm-1 col-xs-1">
+                  <div class="exp-box1"></div>
+                </div>
+                <div class="mobile-style">
+                  <div class="col-sm-5 col-xs-5 exp-web1">
+                    <b>
+                      SOFTWARE DEVELOPER<br>
+                    </b>
+                    JANUARY 2018-PRESENT
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                    <p>
+                      <b>Vineti</b><br>
+                      <a href="http://vineti.com/">vineti.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-md-6 col-sm-12">
               <div class="row experience">
                 <div class="col-sm-1 col-xs-1">
@@ -204,8 +210,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row experience-row">
             <div class="col-md-6 col-sm-12">
               <div class="row experience">
                 <div class="col-sm-1 col-xs-1">
@@ -228,24 +232,24 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="row experience">
-                <div class="col-sm-1 col-xs-1">
-                  <div class="exp-box3"></div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row experience">
+              <div class="col-sm-1 col-xs-1">
+                <div class="exp-box3"></div>
+              </div>
+              <div class="mobile-style">
+                <div class="col-sm-5 col-xs-5 exp-web3">
+                  <b>
+                    IMPLEMENTATION SPECIALIST<br>
+                  </b>
+                  JULY-AUGUST 2015
                 </div>
-                <div class="mobile-style">
-                  <div class="col-sm-5 col-xs-5 exp-web3">
-                    <b>
-                      IMPLEMENTATION SPECIALIST<br>
-                    </b>
-                    JULY-AUGUST 2015
-                  </div>
-                  <div class="col-sm-6 col-xs-6">
-                    <p>
-                      <b>TO2015</b><br>
-                      <a href="http://www.toronto2015.org/">toronto2015.org</a>
-                    </p>
-                  </div>
+                <div class="col-sm-6 col-xs-6">
+                  <p>
+                    <b>TO2015</b><br>
+                    <a href="http://www.toronto2015.org/">toronto2015.org</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -268,6 +272,27 @@
           <li class="btn col-md-15 filter" data-filter=".mobile">MOBILE</li>
         </ul>
         <div class="projects-modal">
+          <div id="modal-therapy" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
+                </div>
+                <div class="container">
+                  <div class="modal-body">
+                    <img src="img/therapy-app.png"/>
+                    <h3>Cell Therapy Application</h3>
+                    <p>
+                      This application spans a variety of purposes in the cell therapy space, including the ability to enroll patients or
+                      medical staff into the system, record patient observations throughout the treatment process, and several others.
+                      Two iterations of the application exist, the first is backed by a Ruby on Rails back-end while the second iteration
+                      has a proprietary platform built on top of Java. Both applications have a front-end built in React.js.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div id="modal-cruise" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -341,7 +366,19 @@
           </div>
         </div>
         <div class="swiper-container">
-          <div class="row swiper-wrapper" id="projectslist" >
+          <div class="row swiper-wrapper" id="projectslist">
+            <div class="swiper-slide col-sm-4">
+              <div class="projects all web">
+                  <img class="img-responsive img-100" src="img/therapy-preview.jpeg" />
+                  <div class="middle">
+                    <div class="text">
+                      <h4>Cell Therapy Application</h4>
+                      <p>React.js, Ruby on Rails, Java</p>
+                      <button data-toggle="modal" data-target="#modal-therapy">+</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
             <div class="swiper-slide col-sm-4">
               <div class="projects all mobile">
                   <img class="img-responsive img-100" src="img/cruise-preview.jpg" />
@@ -420,7 +457,7 @@
             <div class="contact-info">
               <div>
                 <h5>RESUME</h5>
-                <a href="https://www.dropbox.com/s/ulx30pcgux7xe98/jordanedwards_resume.pdf?dl=0">
+                <a href="https://www.dropbox.com/s/p6k6qfukgbdm12h/jordanedwards_resume.pdf?dl=0">
                   Click to view
                 </a>
               </div>
