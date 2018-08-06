@@ -97,7 +97,7 @@
               <br><br>
               In my free time I love to stay active through working out as well as outdoor sports such
               as mountain biking. I also read a lot and enjoy other "lazy" activities like watching movies
-              and playing board games. I'm currently looking for a new co-op position for September-December 2018
+              and playing board games. I'm currently looking for a full-time position starting in Fall 2019
               so if you feel that I'd be a good fit for your company please reach out!
             </p>
           </div>
@@ -272,6 +272,30 @@
           <li class="btn col-md-15 filter" data-filter=".mobile">MOBILE</li>
         </ul>
         <div class="projects-modal">
+          <div id="modal-stretcher" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><img src="img/close-modal.png" alt="close"></button>
+                </div>
+                <div class="container">
+                  <div class="modal-body">
+                    <img src="img/stretcher-app.png"/>
+                    <h3>Pimp My Stretcher</h3>
+                    <p>
+                      Pimp My Stretcher is a solution to the increasingly critical problem of patient overcapacity in hospitals.
+                      With too many patients, hospitals are forced to leave patients unattended on stretchers, which are ill-equipped
+                      to provide the monitoring tools necessary to keep patients safe. Our solution provides a full-stack solution
+                      to conveniently monitor the vital signs of patients from a mobile application, with alerts in the event
+                      of any emergencies and insights into the patient data such as any unusual medical readings. This project uses a
+                      Raspberry Pi microcontroller, and the application is powered by a Flask (Python) backend and React Native frontend.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="projects-modal">
           <div id="modal-therapy" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -367,6 +391,18 @@
         </div>
         <div class="swiper-container">
           <div class="row swiper-wrapper" id="projectslist">
+            <div class="swiper-slide col-sm-4">
+              <div class="projects all mobile">
+                <img class="img-responsive img-100" src="img/stretcher-app.png" />
+                <div class="middle">
+                  <div class="text">
+                    <h4>Pimp My Stretcher</h4>
+                    <p>Python, React Native</p>
+                    <button data-toggle="modal" data-target="#modal-stretcher">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="swiper-slide col-sm-4">
               <div class="projects all web">
                   <img class="img-responsive img-100" src="img/therapy-preview.jpeg" />
